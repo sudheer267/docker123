@@ -1,8 +1,0 @@
-FROM
-Anilkumar
-
-COPY NumberGenerator.1.0-SNAPSHOT.jar  /home/NumberGenerator.1.0-SNAPSHOT.jar
-
-EXPOSE 8086
-
-ENTRY POINT [ "java" -"jar" "NumberGenerator.1.0-SNAPSHOT.jar"
